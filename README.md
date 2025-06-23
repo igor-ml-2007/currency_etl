@@ -133,12 +133,12 @@ You also need to connect the app to your own PostgreSQL database. You can do thi
 
 1.1 - Clone the repository locally:
 ```bash
-git https://github.com/lealre/etl-airflow.git
+git https://github.com/igor-ml-2007/currency_etl
 ```
 
 1.2 - Access the project folder:
 ```bash
-cd etl-airflow
+cd currency_etl
 ```
 
 1.3 - Here we have two options to connect to PostgreSQL: locally with Docker (1.3.1) or to connect to an existing database using credentials passed in the `.env` file (1.3.2). By default, if there are no credentials provided, the program will attempt to automatically connect to Docker locally, using the credentials specified in [docker-compose.yml](docker-compose.yml).  
