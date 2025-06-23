@@ -8,8 +8,8 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_DB: db
-      POSTGRES_USER: user-name
+      POSTGRES_DB: airflow_db
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     volumes:
       - local_pgdata:/var/lib/postgresql/data
